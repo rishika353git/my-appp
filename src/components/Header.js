@@ -20,9 +20,16 @@ const Header = () => {
           <ul className="navbar-nav">
             <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
 
-            {/* Categories Dropdown (Hover Enabled) */}
-            <li className="nav-item dropdown position-relative">
-              <a className="nav-link dropdown-toggle" href="/" id="categoriesDropdown">
+            {/* Categories Dropdown */}
+            <li className="nav-item dropdown">
+              <a 
+                className="nav-link dropdown-toggle" 
+                href="/" 
+                id="categoriesDropdown" 
+                role="button" 
+                data-bs-toggle="dropdown" 
+                aria-expanded="false"
+              >
                 Categories
               </a>
               <ul className="dropdown-menu" aria-labelledby="categoriesDropdown">
