@@ -22,6 +22,7 @@ import ProductDetailPage from './components/ProductDetailPage'
 import AdminLogin from './Admin/Components/AdminLogin'
 import ProcessPage from './components/ProcessPage';
 import CartPage from './components/CartPage';
+import AboutPage from './components/AboutPage';
 
 
 // const App = () => {
@@ -61,6 +62,8 @@ const App = () => {
             <Route path="/products/detail" element={<ProductDetailPage />} /> 
             <Route path="/process" element={<ProcessPage />} /> 
             <Route path="/cart" element={<CartPage />} /> 
+            <Route path="/about" element={<AboutPage />} /> 
+
 
 
 

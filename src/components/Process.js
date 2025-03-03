@@ -167,7 +167,7 @@ const Process = () => {
                 className="img-fluid mb-2"
                 style={{ maxHeight: "120px" }}
               />
-              <p className="mb-0">T-Shirt</p>
+              <p className="mb-0 text-dark">T-Shirt</p>
             </div>
           </div>
 
@@ -179,7 +179,7 @@ const Process = () => {
                 className="img-fluid mb-2"
                 style={{ maxHeight: "120px" }}
               />
-              <p className="mb-0">Hoodie</p>
+              <p className="mb-0 text-dark">Hoodie</p>
             </div>
           </div>
 
@@ -191,7 +191,7 @@ const Process = () => {
                 className="img-fluid mb-2"
                 style={{ maxHeight: "120px" }}
               />
-              <p className="mb-0">Mug</p>
+              <p className="mb-0 text-dark">Mug</p>
             </div>
           </div>
         </div>

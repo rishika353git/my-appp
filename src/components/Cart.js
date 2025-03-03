@@ -55,6 +55,14 @@ const Cart = () => {
   
             </div>
 </div>
+<div className="col-12 mt-4">
+          <button className="btn btn-warning w-100 py-2 fw-bold">Proceed to Checkout</button>
+          <div className="text-center mt-3">
+            <a href="#" className="text-decoration-none">
+              or <span className="text-warning">Continue Shopping</span>
+            </a>
+          </div>
+        </div>
 
 
 

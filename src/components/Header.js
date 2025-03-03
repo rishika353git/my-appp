@@ -2,8 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaShoppingCart, FaUser, FaSearch } from "react-icons/fa";
 import "./Style/Header.css";
-import logo from "../../src/assets/Logo.png"
-
+import logo from "../../src/assets/Logo.png";
 
 const Header = () => {
   const cartCount = 3; // Example cart count
@@ -18,9 +17,22 @@ const Header = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ">
+          <ul className="navbar-nav">
             <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
-            <li className="nav-item"><a className="nav-link" href="/">Categories</a></li>
+
+            {/* Categories Dropdown (Hover Enabled) */}
+            <li className="nav-item dropdown position-relative">
+              <a className="nav-link dropdown-toggle" href="/" id="categoriesDropdown">
+                Categories
+              </a>
+              <ul className="dropdown-menu" aria-labelledby="categoriesDropdown">
+                <li><a className="dropdown-item" href="/category/cups">Cups</a></li>
+                <li><a className="dropdown-item" href="/category/mugs">Mugs</a></li>
+                <li><a className="dropdown-item" href="/category/tshirts">T-Shirts</a></li>
+                <li><a className="dropdown-item" href="/category/hoodies">Hoodies</a></li>
+              </ul>
+            </li>
+
             <li className="nav-item"><a className="nav-link" href="/">About</a></li>
             <li className="nav-item"><a className="nav-link" href="/">Contact</a></li>
           </ul>
